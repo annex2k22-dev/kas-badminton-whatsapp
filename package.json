@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "install": "node install.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "whatsapp-web.js": "^1.23.0",
     "qrcode-terminal": "^0.12.0",
     "node-fetch": "^2.6.7",
     "express": "^4.18.2",
-    "puppeteer": "^21.0.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "puppeteer-core": "^21.0.0"
   }
 }
